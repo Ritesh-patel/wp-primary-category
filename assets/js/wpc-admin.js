@@ -30,7 +30,7 @@
 			termEl = jQuery( parentEl ).find( 'input[type=checkbox]' )[0];
 			termEl.checked = true;
 
-			if( "undefined" === typeof set ){
+			if( "undefined" === typeof val ){
 				val = 0;
 			} else {
 				val = termEl.value;
