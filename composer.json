@@ -1,0 +1,27 @@
+{
+	"name": "wp-primary-category",
+	"description": "WP Primary Category allows post authors to set primary category for a post which have multiple categories.",
+	"version": "0.1.0",
+	"type": "wordpress-plugin",
+	"keywords": [],
+	"homepage": "https://github.com/ritesh-patel/wp-primary-category",
+	"license": "GPL-2.0+",
+	"authors": [
+		{
+			"name": "Ritesh Patel",
+			"email": "ritzpatel91@gmail.com",
+		"homepage": "http://riteshpatel.me/",
+			"role": "Developer"
+		}
+	],
+    "minimum-stability": "dev",
+	"require": {
+		"php": ">=5.6"
+	},
+    "require-dev": {
+	    "antecedent/patchwork": "1.2.*",
+        "phpunit/phpunit"     : "*@stable",
+	    "brianium/paratest"   : "dev-master",
+        "10up/wp_mock"        : "dev-master"
+    }
+}

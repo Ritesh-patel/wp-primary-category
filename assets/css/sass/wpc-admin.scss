@@ -1,0 +1,25 @@
+/**
+ * WP Primary Category
+ * https://github.com/ritesh-patel/wp-primary-category
+ *
+ * Copyright (c) 2016 Ritesh Patel
+ * Licensed under the GPL-2.0+ license.
+ */
+
+.wpc-set-primary {
+	float: right;
+	text-decoration: none;
+	display: none;
+}
+.wpc-unset-primary {
+	float: right;
+	text-decoration: none;
+}
+.categorydiv li:hover {
+	.wpc-set-primary {
+		display: inline;
+	}
+	.wpc-unset-primary {
+		color: #dc3232;
+	}
+}
