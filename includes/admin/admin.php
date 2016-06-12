@@ -64,9 +64,9 @@ function admin_scripts( $hook ) {
 				// enqueue css file
 				wp_enqueue_style( 'wpc-admin', WPC_URL . 'assets/css/wpc-admin.min.css', array(), WPC_VERSION );
 
-				$min = '';
+				$min = '.min';
 				if( defined( 'SCRIPT_DEBUG' ) && SCRIPT_DEBUG ){
-					$min = '.min';
+					$min = '';
 				}
 				// enqueue js file and dependent js vars
 				wp_enqueue_script( 'wpc-admin', WPC_URL . "assets/js/wpc-admin{$min}.js", array( 'jquery' ), WPC_VERSION, true );
