@@ -18,8 +18,11 @@ WP Primary Category allows post authors to set primary category for a post which
 
 ### Screenshots ###
 **Set Primary**
+
 ![set-primary](https://cloud.githubusercontent.com/assets/2941333/16015117/e0ee46ec-31b1-11e6-8b07-01dba1b30e95.png)
+
 **Unset Primary**
+
 ![unset-primary](https://cloud.githubusercontent.com/assets/2941333/16015159/132fd4d6-31b2-11e6-8401-e4b7729da2e5.png)
 
 ### Support For Custom Taxonomies ###
