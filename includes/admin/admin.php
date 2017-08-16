@@ -131,10 +131,14 @@ function set_primary_taxonomy( $post_id, $post, $update ) {
 function admin_js_templates(){
 ?>
 	<script type="text/html" id="tmpl-wpc-set-admin-views">
-		<a href="#" class="wpc-set-primary" data-tax="{{data.taxonomy}}"><?php esc_html_e( 'Set Primary', 'wpc' ) ?></a>
+		<a href="#" class="wpc-set-primary" data-tax="{{data.taxonomy}}">
+			<?php esc_html_e( apply_filters( 'wpc_set_primary_label', 'Set Primary' ), 'wpc' ) ?>
+		</a>
 	</script>
 	<script type="text/html" id="tmpl-wpc-unset-admin-views">
-		<a href="#" class="wpc-unset-primary" data-tax="{{data.taxonomy}}"><?php esc_html_e( 'Unset Primary', 'wpc' ) ?></a>
+		<a href="#" class="wpc-unset-primary" data-tax="{{data.taxonomy}}">
+			<?php esc_html_e( apply_filters( 'wpc_unset_primary_label', 'Unset Primary' ), 'wpc' ) ?>
+		</a>
 	</script>
 	<?php
 }
